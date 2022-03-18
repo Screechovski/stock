@@ -1,1 +1,1 @@
-export default [AAPL,NVDA,TSLA,AMD,INTC,MDB,SPCE,V,DAL,DOCU,OKTA,AMZN,PINS,TRIP,GDDY,DIS,MCD,NOK,UPWK,IBM,FB,ZM,OZON,NFLX,EA,HLT,H,CCL];
+export default ['AAPL', 'NVDA', 'TSLA', 'AMD', 'INTC', 'MDB', 'SPCE', 'V', 'DAL', 'DOCU', 'OKTA', 'AMZN', 'PINS', 'TRIP', 'GDDY', 'DIS', 'MCD', 'NOK', 'UPWK', 'IBM', 'FB', 'ZM', 'OZON', 'NFLX', 'EA', 'HLT', 'H', 'CCL'];

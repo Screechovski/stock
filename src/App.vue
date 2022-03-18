@@ -1,31 +1,42 @@
 <template>
-  <div id='app'>
-    <img alt='Vue logo' src='./assets/logo.png' />
-    <HelloWorld msg='Welcome to Your Vue.js App' />
-  </div>
+    <StockWrapper />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import StockWrapper from '@/components/StockWrapper.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-  },
-  created() {
-    console.log(1);
+    StockWrapper,
   },
 };
 </script>
 
-<style lang='scss'>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style lang="scss">
+:root {
+    --textColor: #E4E4E4;
+}
+body {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0d0d0d;
+    font-family: 'Baloo Tammudu 2', cursive;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    overflow: auto;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+.title {
+    font-size: 30px;
+    color: #E4E4E4;
+    text-transform: uppercase;
+    margin-bottom: 1em;
 }
 </style>
