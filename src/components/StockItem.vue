@@ -38,20 +38,22 @@ export default {
 .stock-item
     background-color: #000000
     border-radius: 20px
-    padding: 15px
+    padding: 10px
     display: flex
     align-items: center
     box-shadow: 0px 0px 10px 0px #7e7e7e1a
+    gap: 10px
     &__info
-        padding: 0 15px
     &__title
         color: var(--textColor)
-        font-size: 18px
+        font-size: 14px
         margin-bottom: 0.5em
+        margin-top: 0
     &__abbr
         color: #787878
-        font-size: 15px
+        font-size: 14px
         text-transform: uppercase
+        margin-bottom: 0
     &__image
         height: 50px
         width: 50px
@@ -70,6 +72,6 @@ export default {
         text-transform: uppercase
         color: var(--textColor)
         margin-left: auto
-        font-size: 25px
+        font-size: 15px
         white-space: nowrap
 </style>

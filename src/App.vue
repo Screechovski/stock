@@ -18,17 +18,17 @@ export default {
     --textColor: #E4E4E4;
 }
 body {
-    padding: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #0d0d0d;
+    background-color: #212121;
     font-family: 'Baloo Tammudu 2', cursive;
     height: 100vh;
     width: 100vw;
     box-sizing: border-box;
     overflow: auto;
     scrollbar-width: none;
+    padding: 0px 20px;
     &::-webkit-scrollbar {
         display: none;
     }
