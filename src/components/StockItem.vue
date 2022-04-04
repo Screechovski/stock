@@ -13,25 +13,25 @@
 
 <script>
 export default {
-    props: {
-        title: {
-            type: String,
-            required: true
-        },
-        price: {
-            type: Number,
-            required: true
-        },
-        abbr: {
-            type: String,
-            required: true
-        },
-        imageUrl: {
-            type: String,
-            required: true
-        }
-    }
-}
+  props: {
+    title: {
+      type: String,
+      required: true,
+    },
+    price: {
+      type: Number,
+      required: true,
+    },
+    abbr: {
+      type: String,
+      required: true,
+    },
+    imageUrl: {
+      type: String,
+      required: true,
+    },
+  },
+};
 </script>
 
 <style lang="sass">

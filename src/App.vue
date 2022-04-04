@@ -1,25 +1,23 @@
 <template>
-    <h2 class="title">My Stock App</h2>
-    <StocksWrapper />
+    <StockWrapper />
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue'
-import StocksWrapper from './components/StocksWrapper.vue'
+<script>
+import StockWrapper from '@/components/StockWrapper.vue';
 
-export default defineComponent({
-    name: 'App',
-    components: {
-        StocksWrapper
-    }
-})
+export default {
+  name: 'App',
+  components: {
+    StockWrapper,
+  },
+};
 </script>
 
 <style lang="scss">
 :root {
     --textColor: #E4E4E4;
 }
-#app {
+body {
     padding: 50px;
     display: flex;
     flex-direction: column;
@@ -34,7 +32,6 @@ export default defineComponent({
     &::-webkit-scrollbar {
         display: none;
     }
-
 }
 .title {
     font-size: 30px;
